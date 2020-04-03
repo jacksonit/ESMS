@@ -1,5 +1,5 @@
 {
-    "name": "jacksonit/sms",
+    "name": "jacksonit/esms",
     "description": "Send SMS Laravel",
     "license": "MIT",
     "keywords": ["laravel", "sms", "jacksonit"],
