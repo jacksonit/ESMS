@@ -29,9 +29,9 @@ class ESMSServiceProvider extends ServiceProvider
     {
         $this->app->booting(function () {
             $loader = AliasLoader::getInstance();
-            $loader->alias('ESMSCharge', 'Jacksonit\ESMS\Facades\ESMSCharge');
+            $loader->alias('ESMS', 'Jacksonit\ESMS\Facades\ESMSCharge');
         });
 
-        $this->app->bind('ESMSCharge', SMSCharge::class);
+        $this->app->bind('ESMSCharge', ESMSCharge::class);
     }
 }
