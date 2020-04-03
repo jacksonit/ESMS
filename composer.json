@@ -1,0 +1,29 @@
+{
+    "name": "jacksonit/sms",
+    "description": "Send SMS Laravel",
+    "license": "MIT",
+    "keywords": ["laravel", "sms", "jacksonit"],
+    "authors": [
+        {
+            "name": "Cao Son",
+            "email": "jacksonit.org@gmail.com",
+            "homepage": "http://jacksonit.org"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jacksonit\\ESMS\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jacksonit\\ESMS\\ESMSServiceProvider"
+            ]
+        }
+    }
+}
